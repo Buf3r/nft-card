@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: hsl(217, 54%, 11%);
+    
+}
+body{
+   
+    color: beige;
+}
+.caja{
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 10px;
+    
+    width: 370px;
+    height: 600px;
+    border-radius: 15px;
+    flex-direction: column;
+    
+    text-align: left;
+    box-shadow: 5px 5px 5px 5px black, 5px 5px 5px 5px black, 5px 5px 225px 5px black;
+}
+.foto{
+    margin: 25px 25px 2px 25px;
+    border-radius: 3%;
+}
+.titulo{
+    margin-top: 15px;
+    margin-left: 25px;
+    font-family: 'Outfit', sans-serif;
+}
+.parrafo{
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+.sombra{
+    color: hsl(215, 51%, 70%);  
+    font-family: 'Outfit', sans-serif;
+    margin-left: 15px;
+}
+.nombre{
+    margin-left: 10px;
+}
+.dias{
+    color: hsl(215, 51%, 70%); 
+    margin-left: 115px; 
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+}
+.precio{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.creador{
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    width: 10%;
+    border: 1px white solid;
+    border-radius: 50%;
+}
+.linea{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 320px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    
+   border: 0.00005px hsla(215, 52%, 70%, 0.11) solid;
+}
+.pie{
+    
+   display: flex ;
+   
+   text-align: center;
+   margin: auto;
+   margin-top: 80px;
+    color: rgb(255, 255, 251);
+    width: 400px;
+    text-decoration: none;
+}
